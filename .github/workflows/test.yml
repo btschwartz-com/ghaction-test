@@ -2,6 +2,7 @@
 
 name: Run Python Tests
 
+
 on:
   push:
     branches:
@@ -10,7 +11,7 @@ on:
 jobs:
   test:
 
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
     - name: Checkout code
